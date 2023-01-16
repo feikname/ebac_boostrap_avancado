@@ -1,0 +1,25 @@
+header {
+    background-color: rgb(137, 225, 65);
+    margin-bottom: 10px;
+}
+
+header .container {
+    padding: 10px;
+}
+
+body {
+    background-color: #efefef;
+}
+
+.carousel-item img {
+    object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption h2 span {
+    background-color: rgba(0, 0, 0, 0.4);
+}

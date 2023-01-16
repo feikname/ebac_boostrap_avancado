@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container text-center">
+            <h1>Museu virtual de terminais DEC</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div id="carousel" class="carousel carousel-fade slide w-100 mb-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption">
+                        <h2><span>Terminal DEC VT05</span></h2>
+                    </div>
+                    <img class="d-block w-100" src="img/1-VT05.jpg" height="400" alt="Terminal DEC VT05">
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption">
+                        <h2><span>Terminal DEC VT52</span></h2>
+                    </div>
+                    <img class="d-block w-100" src="img/2-VT52.jpg" height="400" alt="Terminal DEC VT52">
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption">
+                        <h2><span>Terminal DEC VT100</span></h2>
+                    </div>
+                    <img class="d-block w-100" src="img/3-VT100.jpg" height="400" alt="Terminal DEC VT100">
+                </div>
+            </div>
+            <buttton class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </buttton>
+            <buttton class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </buttton>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col">
+                <div class="card">
+                    <img src="img/1-VT05.jpg" alt="Terminal DEC VT05" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">DEC VT05</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">1970</h6>
+                        <p class="card-text">
+                            Primeiro terminal CRT<br>
+                            Apenas ASCII maiusculas <br>
+                            Display de 20x72
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/2-VT52.jpg" alt="Terminal DEC VT52" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">DEC VT52</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">1975</h6>
+                        <p class="card-text">
+                            Suporte ao ASCII completo<br>
+                            32 caracteres gráficos extras<br>
+                            Mais caracteres de controle<br> 
+                            Rolagem bi-direcional<br>
+                            Display expandido em relação ao DEC VT05, agora de 24x80
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/3-VT100.jpg" alt="Terminal DEC VT100" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">DEC VT100</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">1978</h6>
+                        <p class="card-text">Adição códigos de escape ANSI, o
+                        que os popularizou como o padrão de facto para
+                        terminais</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
